@@ -1,0 +1,38 @@
+
+body {
+    background-color: #333333;
+}
+
+.container {
+    width: calc(200px * 4 + 3em);
+    margin: auto;
+}
+
+.images {
+    columns: 4;
+    column-gap: 1em;
+}
+
+.singleImage {
+    margin-bottom: 1em;
+}
+
+#searchGif {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+#searchInput {
+    width: 300px;
+    height: 30px;
+    border: 2px solid peachpuff;
+    border-radius: 2px;
+}
+
+#button {
+    width: 75px;
+    height: 36px;
+    background-color: peachpuff;
+    border: 2px solid peachpuff;
+    border-radius: 2px;
+}
